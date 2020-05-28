@@ -1,0 +1,17 @@
+char c
+if(c == "k")  // 틀림X
+if(c == 'k')   // 맞음O
+
+'x' 에서 'xd'  이런식으로 두문자 이상이 있으면 int 형으로 취급됨!
+
+
+<<구조체 + 큐>>
+
+struct xyz {
+	int x;
+	int y;
+	int z;
+};
+queue <xyz> q;
+xyz current;
+current.x = x, current.y = y, current.z = z;
